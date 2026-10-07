@@ -41,12 +41,6 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Install Dart Sass
-        run: |
-          curl -sfL --output-dir "${{ runner.temp }}" -O "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-          tar -C "${HOME}/.local" -xf "${{ runner.temp }}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-          echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
-
-      - name: Install Dart Sass
         run: sudo snap install dart-sass
 
       - name: Build with Hugo
