@@ -1,0 +1,48 @@
+banner:
+  contents: "**Ibon Murillo** — Desarrollador · Proyectos open source · Hugo"
+  button:
+    contents: "Mi GitHub"
+    url: "https://github.com/Kapjed"
+
+items:
+  - type: heading
+    heading: "Sobre mí"
+    contents: |
+      Soy desarrollador y me gusta construir cosas que funcionan y se entienden.
+      Trabajo con **Hugo**, **Go** y automatización de despliegues.
+
+  - type: card
+    heading: "Mi sitio Hugo"
+    contents: "Sitio personal construido con Hugo y el tema Arcana."
+    image: "images/hugo.webp"
+    image_alt: "Captura del sitio Hugo"
+
+  - type: card
+    heading: "Automatizaciones"
+    contents: "Scripts y herramientas para automatizar tareas."
+    image: "images/images.jpg"
+    image_alt: "Captura de automatizaciones"
+
+  - type: highlights
+    items_per_row: 3
+    items:
+      - icon: "fa-code"
+        title: "Código"
+        content: "Escribo software que otras personas pueden leer."
+      - icon: "fa-cogs"
+        title: "Automatización"
+        content: "Scripts y flujos que ahorran tiempo."
+      - icon: "fa-book"
+        title: "Documentación"
+        content: "Si no se entiende, no está terminado."
+
+  - type: posts
+    heading: "Últimos posts"
+    content_type: "blog"
+    max: 4
+
+  - type: cta
+    contents: "¿Hablamos?"
+    button:
+      contents: "Contacto"
+      url: "/contact/"
