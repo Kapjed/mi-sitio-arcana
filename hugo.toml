@@ -1,4 +1,4 @@
-baseURL = 'https://TU-USUARIO.github.io/mi-sitio-arcana/'
+baseURL = 'https://kapjed.github.io/mi-sitio-arcana/'
 languageCode = 'es-es'
 title = 'Mi Sitio con Arcana'
 theme = 'hugo-arcana'
